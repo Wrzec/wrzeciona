@@ -46,8 +46,8 @@ if (empty( $messages )) {
 // 3. wykonaj zadanie jeśli wszystko w porządku
 
 if (empty ( $messages )) { // gdy brak błędów
-	floatval($kwota);
-	floatval($kurs);
+	$kwota=floatval($kwota);
+	$kurs=floatval($kurs);
 	//wykonanie operacji
 	switch ($operation) {
 		case 'plnnaeur' :
